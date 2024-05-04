@@ -3,6 +3,7 @@ Designed to identify critical regions within images that significantly influence
 By systematically analyzing how masking or altering small segments of an image affects the model's output, SIAC helps enhance the interpretability of model decisions, especially in domains where understanding spatial contributions to decisions is crucial.
 
 **Features**
+
 **1- Image Segmentation:** Divides images into manageable segments using Simple Linear Iterative Clustering (SLIC).
 
 **2- Impact Analysis:** Evaluates the influence of each segment on the model's prediction by masking segments and observing changes in classification probabilities.
